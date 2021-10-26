@@ -2,9 +2,6 @@
 
 [![Language](https://img.shields.io/badge/language-C%23-blue.svg?style=flat-square)](https://github.com/HavenDV/H.XamlExtensions/search?l=C%23&o=desc&s=&type=Code) 
 [![License](https://img.shields.io/github/license/HavenDV/H.XamlExtensions.svg?label=License&maxAge=86400)](LICENSE.md) 
-[![Requirements](https://img.shields.io/badge/Requirements-.NET%20Standard%202.0-blue.svg)](https://github.com/dotnet/standard/blob/master/docs/versions/netstandard2.0.md)
-[![Requirements](https://img.shields.io/badge/Requirements-.NET%20Framework%204.0-blue.svg)](https://github.com/microsoft/dotnet/blob/master/releases/net40/README.md)
-[![Requirements](https://img.shields.io/badge/Requirements-.NET%20Framework%204.5-blue.svg)](https://github.com/microsoft/dotnet/blob/master/releases/net45/README.md)
 [![Build Status](https://github.com/HavenDV/H.XamlExtensions/actions/workflows/dotnet.yml/badge.svg)](https://github.com/HavenDV/H.XamlExtensions/actions/workflows/dotnet.yml)
 
 Shortest way to create rows/columns for Grid for WPF/UWP/Uno platforms
@@ -22,6 +19,8 @@ Install-Package H.XamlExtensions.Uwp
 ```
 
 ## Usage
+
+### GridExtensions
 ```
 // WPF
 xmlns:e="clr-namespace:H.XamlExtensions;assembly=H.XamlExtensions.Wpf" 
@@ -29,7 +28,7 @@ xmlns:e="clr-namespace:H.XamlExtensions;assembly=H.XamlExtensions.Wpf"
 xmlns:e="using:H.XamlExtensions"
 ```
 ```xml
-<Grid e:GridlExtensions.ColumnsAndRows="A,A,*,A,A;A,A,*,A,A"/>
+<Grid e:GridExtensions.ColumnsAndRows="A,A,*,A,A;A,A,*,A,A"/>
 ```
 
 ## Contacts
