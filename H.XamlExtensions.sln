@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{A81088C2-A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{2CEE2766-3A6D-4891-9416-01E4FAC0B243}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridExtensions.Wpf", "src\libs\GridExtensions.Wpf\GridExtensions.Wpf.csproj", "{65786107-E646-452E-B899-EDD26D09E401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Wpf", "src\libs\H.XamlExtensions.Wpf\H.XamlExtensions.Wpf.csproj", "{65786107-E646-452E-B899-EDD26D09E401}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9972D12E-4770-4883-AE5D-98412271DE83}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,22 +22,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridExtensions.Uwp", "src\libs\GridExtensions.Uwp\GridExtensions.Uwp.csproj", "{16A17957-6DE3-4874-B0B6-08404C23FBBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Uwp", "src\libs\H.XamlExtensions.Uwp\H.XamlExtensions.Uwp.csproj", "{16A17957-6DE3-4874-B0B6-08404C23FBBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridExtensions.Uno", "src\libs\GridExtensions.Uno\GridExtensions.Uno.csproj", "{F5EB3A73-1D93-42F7-9757-26B486D74592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Uno", "src\libs\H.XamlExtensions.Uno\H.XamlExtensions.Uno.csproj", "{F5EB3A73-1D93-42F7-9757-26B486D74592}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{464A41EC-E4D1-4BC3-93BD-A48E3449A4BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridExtensions.Apps.Wpf", "src\apps\GridExtensions.Apps.Wpf\GridExtensions.Apps.Wpf.csproj", "{8C2D2DDA-890B-4F6F-938F-9CFDF82AAC0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Apps.Wpf", "src\apps\H.XamlExtensions.Apps.Wpf\H.XamlExtensions.Apps.Wpf.csproj", "{8C2D2DDA-890B-4F6F-938F-9CFDF82AAC0F}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GridExtensions.Shared", "src\shared\GridExtensions.Shared\GridExtensions.Shared.shproj", "{F497B163-E46E-4EA6-9E41-BB0C25CA6272}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "H.XamlExtensions.Shared", "src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.shproj", "{F497B163-E46E-4EA6-9E41-BB0C25CA6272}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		src\shared\GridExtensions.Shared\GridExtensions.Shared.projitems*{16a17957-6de3-4874-b0b6-08404c23fbbe}*SharedItemsImports = 5
-		src\shared\GridExtensions.Shared\GridExtensions.Shared.projitems*{65786107-e646-452e-b899-edd26d09e401}*SharedItemsImports = 5
-		src\shared\GridExtensions.Shared\GridExtensions.Shared.projitems*{f497b163-e46e-4ea6-9e41-bb0c25ca6272}*SharedItemsImports = 13
-		src\shared\GridExtensions.Shared\GridExtensions.Shared.projitems*{f5eb3a73-1d93-42f7-9757-26b486d74592}*SharedItemsImports = 5
+		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{16a17957-6de3-4874-b0b6-08404c23fbbe}*SharedItemsImports = 5
+		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{65786107-e646-452e-b899-edd26d09e401}*SharedItemsImports = 5
+		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f497b163-e46e-4ea6-9e41-bb0c25ca6272}*SharedItemsImports = 13
+		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f5eb3a73-1d93-42f7-9757-26b486d74592}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

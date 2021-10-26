@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\libs\GridExtensions.Wpf\GridExtensions.Wpf.csproj" />
+    <ProjectReference Include="..\..\libs\H.XamlExtensions.Wpf\H.XamlExtensions.Wpf.csproj" />
   </ItemGroup>
 
 </Project>

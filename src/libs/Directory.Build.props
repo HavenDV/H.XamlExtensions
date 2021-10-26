@@ -28,8 +28,8 @@
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <Authors>havendv</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/HavenDV/GridExtensions</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/HavenDV/GridExtensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/HavenDV/H.XamlExtensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HavenDV/H.XamlExtensions</RepositoryUrl>
     <PackageIcon>nuget_icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

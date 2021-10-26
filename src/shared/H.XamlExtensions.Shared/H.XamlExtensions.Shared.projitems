@@ -6,7 +6,7 @@
     <SharedGUID>f497b163-e46e-4ea6-9e41-bb0c25ca6272</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>GridExtensions.Shared</Import_RootNamespace>
+    <Import_RootNamespace>H.XamlExtensions.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\Constraint.cs" />

@@ -7,6 +7,6 @@
     <NoWarn>$(NoWarn);CA1724</NoWarn>
   </PropertyGroup>
 
-  <Import Project="..\..\shared\GridExtensions.Shared\GridExtensions.Shared.projitems" Label="Shared" />
+  <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
   
 </Project>
