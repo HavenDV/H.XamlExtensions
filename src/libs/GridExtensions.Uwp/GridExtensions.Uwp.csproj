@@ -1,0 +1,12 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras">
+
+  <PropertyGroup>
+    <TargetFrameworks>uap10.0.19041</TargetFrameworks>
+    <SignAssembly>false</SignAssembly>
+	<DefineConstants>$(DefineConstants);UWP</DefineConstants>
+    <NoWarn>$(NoWarn);CA1724</NoWarn>
+  </PropertyGroup>
+
+  <Import Project="..\..\shared\GridExtensions.Shared\GridExtensions.Shared.projitems" Label="Shared" />
+  
+</Project>
