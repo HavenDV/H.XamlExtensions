@@ -1,0 +1,17 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras">
+
+  <PropertyGroup>
+	<!--;net6.0-maccatalyst;net6.0-android;net6.0-ios;net6.0-macos-->
+    <TargetFrameworks>netstandard2.0;MonoAndroid10.0;xamarinios10;xamarinmac20</TargetFrameworks>
+    <SignAssembly>false</SignAssembly>
+	<DefineConstants>$(DefineConstants);Uno;WinUI</DefineConstants>
+    <NoWarn>$(NoWarn);CA1724</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Uno.WinUI" Version="3.4.0" />
+  </ItemGroup>
+
+  <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
+
+</Project>
