@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0-windows10.0.19041;net6.0-windows10.0.19041.0</TargetFrameworks>
+    <UseWinUI>true</UseWinUI>
+	<DefineConstants>$(DefineConstants);WinUI</DefineConstants>
+    <NoWarn>$(NoWarn);CA1724</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0-experimental1" />
+  </ItemGroup>
+
+  <!-- Workaround for https://github.com/microsoft/WindowsAppSDK/issues/1217 -->
+  <Target Name="FixBinPlaceBootstrapDll" BeforeTargets="BinPlaceBootstrapDll" >
+    <PropertyGroup>
+      <_WindowsAppSDKFoundationPlatform>x86</_WindowsAppSDKFoundationPlatform>
+    </PropertyGroup>
+  </Target>
+
+  <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
+  
+</Project>

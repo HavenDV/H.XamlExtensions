@@ -36,11 +36,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Uno.WinUI"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.ProjectReunion", "src\libs\H.XamlExtensions.ProjectReunion\H.XamlExtensions.ProjectReunion.csproj", "{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.WindowsAppSDK", "src\libs\H.XamlExtensions.WindowsAppSDK\H.XamlExtensions.WindowsAppSDK.csproj", "{9D27904B-0114-4681-B0C0-8C3533B38FE0}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{16a17957-6de3-4874-b0b6-08404c23fbbe}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{26dc3fab-d12d-45c5-b000-9f4b8d68fef4}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{65786107-e646-452e-b899-edd26d09e401}*SharedItemsImports = 5
+		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{9d27904b-0114-4681-b0c0-8c3533b38fe0}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{ab635967-d2ff-4a55-a319-109099de8ff4}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f497b163-e46e-4ea6-9e41-bb0c25ca6272}*SharedItemsImports = 13
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f5eb3a73-1d93-42f7-9757-26b486d74592}*SharedItemsImports = 5
@@ -74,6 +77,10 @@ Global
 		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D27904B-0114-4681-B0C0-8C3533B38FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D27904B-0114-4681-B0C0-8C3533B38FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D27904B-0114-4681-B0C0-8C3533B38FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D27904B-0114-4681-B0C0-8C3533B38FE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +93,7 @@ Global
 		{F497B163-E46E-4EA6-9E41-BB0C25CA6272} = {2CEE2766-3A6D-4891-9416-01E4FAC0B243}
 		{AB635967-D2FF-4A55-A319-109099DE8FF4} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
 		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
+		{9D27904B-0114-4681-B0C0-8C3533B38FE0} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6AF160D8-AC25-4835-84D4-A42A72264F88}
