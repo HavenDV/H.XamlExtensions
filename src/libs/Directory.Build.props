@@ -17,7 +17,7 @@
   
   <PropertyGroup Label="NuGet">
     <Description>Shortest way to create rows/columns for Grid for WPF/UWP/Uno platforms</Description>
-    <PackageTags>grid, extensions, columns, rows, uwp, uno, wpf</PackageTags>
+    <PackageTags>grid, extensions, columns, rows, uwp, uno, wpf, winui, windowsappsdk, reunion</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Label="Nuget">
