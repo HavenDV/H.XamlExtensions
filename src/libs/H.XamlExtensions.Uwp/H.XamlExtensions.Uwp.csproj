@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>uap10.0.19041</TargetFrameworks>
-	<DefineConstants>$(DefineConstants);UWP</DefineConstants>
+	<DefineConstants>$(DefineConstants);HAS_UWP</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup Label="GlobalUsings">

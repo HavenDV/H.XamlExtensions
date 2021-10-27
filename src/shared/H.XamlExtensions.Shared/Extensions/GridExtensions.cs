@@ -13,7 +13,7 @@ public static class GridExtensions
             typeof(GridExtensions),
             new PropertyMetadata(string.Empty, OnColumnsAndRowsChanged));
 
-#if WPF
+#if HAS_WPF
     [AttachedPropertyBrowsableForType(typeof(Grid))]
 #endif
     public static string? GetColumnsAndRows(DependencyObject element)
@@ -89,7 +89,7 @@ public static class GridExtensions
             typeof(GridExtensions),
             new PropertyMetadata(string.Empty, OnColumnsChanged));
 
-#if WPF
+#if HAS_WPF
     [AttachedPropertyBrowsableForType(typeof(Grid))]
 #endif
     public static string? GetColumns(DependencyObject element)
@@ -134,7 +134,7 @@ public static class GridExtensions
             typeof(GridExtensions),
             new PropertyMetadata(string.Empty, OnRowsChanged));
 
-#if WPF
+#if HAS_WPF
     [AttachedPropertyBrowsableForType(typeof(Grid))]
 #endif
     public static string? GetRows(DependencyObject element)
