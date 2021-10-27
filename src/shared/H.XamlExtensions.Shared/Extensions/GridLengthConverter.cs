@@ -1,11 +1,4 @@
 ﻿using System.Globalization;
-#if WPF
-using System.Windows;
-#elif WinUI
-using Microsoft.UI.Xaml;
-#else
-using Windows.UI.Xaml;
-#endif
 
 #nullable enable
 

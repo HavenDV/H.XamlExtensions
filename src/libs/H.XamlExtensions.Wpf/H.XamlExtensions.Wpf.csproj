@@ -7,6 +7,11 @@
     <NoWarn>$(NoWarn);CA1724</NoWarn>
   </PropertyGroup>
 
+  <ItemGroup Label="GlobalUsings">
+    <Using Include="System.Windows" />
+    <Using Include="System.Windows.Controls" />
+  </ItemGroup>
+
   <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
   
 </Project>

@@ -1,15 +1,4 @@
-﻿#if WPF
-using System.Windows;
-using System.Windows.Controls;
-#elif WinUI
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-#else
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-#endif
-
-#nullable enable
+﻿#nullable enable
 
 namespace H.XamlExtensions;
 
