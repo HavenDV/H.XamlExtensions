@@ -4,7 +4,6 @@
     <TargetFrameworks>net5.0-windows10.0.19041;net6.0-windows10.0.19041.0</TargetFrameworks>
     <UseWinUI>true</UseWinUI>
 	<DefineConstants>$(DefineConstants);WinUI</DefineConstants>
-    <NoWarn>$(NoWarn);CA1724</NoWarn>
   </PropertyGroup>
 
   <ItemGroup Label="GlobalUsings">
