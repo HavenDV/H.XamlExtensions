@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>uap10.0.19041</TargetFrameworks>
-	<DefineConstants>$(DefineConstants);HAS_UWP</DefineConstants>
+    <DefineConstants>$(DefineConstants);HAS_UWP</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup Label="GlobalUsings">
@@ -11,5 +11,5 @@
   </ItemGroup>
 
   <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
-  
+
 </Project>

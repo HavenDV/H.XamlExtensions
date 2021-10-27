@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net5.0-windows10.0.18362;net6.0-windows10.0.18362.0</TargetFrameworks>
     <UseWinUI>true</UseWinUI>
-	<DefineConstants>$(DefineConstants);HAS_WINUI</DefineConstants>
+    <DefineConstants>$(DefineConstants);HAS_WINUI</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup Label="GlobalUsings">
@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ProjectReunion" Version="0.8.5" />
   </ItemGroup>
-	
+
   <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
-  
+
 </Project>
