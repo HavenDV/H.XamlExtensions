@@ -1,4 +1,4 @@
-namespace H.XamlExtensions.Apps.WindowsAppSDK;
+namespace H.XamlExtensions.Apps.WindowsAppSdk;
 
 public sealed partial class App : Application
 {
