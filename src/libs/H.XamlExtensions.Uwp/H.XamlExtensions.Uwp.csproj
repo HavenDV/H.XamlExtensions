@@ -5,11 +5,6 @@
     <DefineConstants>$(DefineConstants);HAS_UWP</DefineConstants>
   </PropertyGroup>
 
-  <ItemGroup Label="GlobalUsings">
-    <Using Include="Windows.UI.Xaml" />
-    <Using Include="Windows.UI.Xaml.Controls" />
-  </ItemGroup>
-
   <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
 
 </Project>
