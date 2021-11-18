@@ -34,8 +34,6 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "H.XamlExtensions.Shared", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Uno.WinUI", "src\libs\H.XamlExtensions.Uno.WinUI\H.XamlExtensions.Uno.WinUI.csproj", "{AB635967-D2FF-4A55-A319-109099DE8FF4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.ProjectReunion", "src\libs\H.XamlExtensions.ProjectReunion\H.XamlExtensions.ProjectReunion.csproj", "{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.WindowsAppSDK", "src\libs\H.XamlExtensions.WindowsAppSDK\H.XamlExtensions.WindowsAppSDK.csproj", "{615808DB-FBFC-4DDD-A6D4-64525428F48F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Apps.WindowsAppSdk", "src\apps\H.XamlExtensions.Apps.WindowsAppSdk\H.XamlExtensions.Apps.WindowsAppSdk.csproj", "{B1D125FD-F1ED-4556-9C20-34735AFF3F7D}"
@@ -43,7 +41,6 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{16a17957-6de3-4874-b0b6-08404c23fbbe}*SharedItemsImports = 5
-		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{26dc3fab-d12d-45c5-b000-9f4b8d68fef4}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{615808db-fbfc-4ddd-a6d4-64525428f48f}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{65786107-e646-452e-b899-edd26d09e401}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{ab635967-d2ff-4a55-a319-109099de8ff4}*SharedItemsImports = 5
@@ -141,22 +138,6 @@ Global
 		{AB635967-D2FF-4A55-A319-109099DE8FF4}.Release|x64.Build.0 = Release|Any CPU
 		{AB635967-D2FF-4A55-A319-109099DE8FF4}.Release|x86.ActiveCfg = Release|Any CPU
 		{AB635967-D2FF-4A55-A319-109099DE8FF4}.Release|x86.Build.0 = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|arm64.ActiveCfg = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|arm64.Build.0 = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|x64.Build.0 = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Debug|x86.Build.0 = Debug|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|arm64.ActiveCfg = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|arm64.Build.0 = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|x64.ActiveCfg = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|x64.Build.0 = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|x86.ActiveCfg = Release|Any CPU
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4}.Release|x86.Build.0 = Release|Any CPU
 		{615808DB-FBFC-4DDD-A6D4-64525428F48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{615808DB-FBFC-4DDD-A6D4-64525428F48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615808DB-FBFC-4DDD-A6D4-64525428F48F}.Debug|arm64.ActiveCfg = Debug|Any CPU
@@ -200,7 +181,6 @@ Global
 		{8C2D2DDA-890B-4F6F-938F-9CFDF82AAC0F} = {464A41EC-E4D1-4BC3-93BD-A48E3449A4BD}
 		{F497B163-E46E-4EA6-9E41-BB0C25CA6272} = {2CEE2766-3A6D-4891-9416-01E4FAC0B243}
 		{AB635967-D2FF-4A55-A319-109099DE8FF4} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
-		{26DC3FAB-D12D-45C5-B000-9F4B8D68FEF4} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
 		{615808DB-FBFC-4DDD-A6D4-64525428F48F} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
 		{B1D125FD-F1ED-4556-9C20-34735AFF3F7D} = {464A41EC-E4D1-4BC3-93BD-A48E3449A4BD}
 	EndGlobalSection
