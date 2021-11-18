@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\libs\H.XamlExtensions.WindowsAppSDK\H.XamlExtensions.WindowsAppSDK.csproj" />
+    <ProjectReference Include="..\..\libs\H.XamlExtensions.WinUI\H.XamlExtensions.WinUI.csproj" />
   </ItemGroup>
 
 </Project>
