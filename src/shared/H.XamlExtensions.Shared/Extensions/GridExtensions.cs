@@ -120,7 +120,11 @@ public static class GridExtensions
             throw new ArgumentException($"Value should be {nameof(String)}.");
         }
 
+#if HAS_WPF
+        element.SetCurrentValue(ColumnsAndRowsProperty, $"{columns};*");
+#else
         element.SetValue(ColumnsAndRowsProperty, $"{columns};*");
+#endif
     }
 
     #endregion
@@ -165,7 +169,11 @@ public static class GridExtensions
             throw new ArgumentException($"Value should be {nameof(String)}.");
         }
 
+#if HAS_WPF
+        element.SetCurrentValue(ColumnsAndRowsProperty, $"*;{rows}");
+#else
         element.SetValue(ColumnsAndRowsProperty, $"*;{rows}");
+#endif
     }
 
     #endregion
