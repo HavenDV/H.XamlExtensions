@@ -1,5 +1,8 @@
 ﻿#if HAS_AVALONIA
+global using Avalonia;
+global using Avalonia.Data;
 global using Avalonia.Controls;
+global using DependencyObject = Avalonia.IAvaloniaObject;
 #elif HAS_WPF
 global using System.Windows;
 global using System.Windows.Controls;
