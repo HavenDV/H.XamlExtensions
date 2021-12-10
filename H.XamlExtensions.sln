@@ -49,6 +49,7 @@ Global
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{682d6fb2-c18b-4522-8b33-567fcc8647fe}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{bb0da6f4-4a0f-41b3-a7ec-b4f3fe38f8c5}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f497b163-e46e-4ea6-9e41-bb0c25ca6272}*SharedItemsImports = 13
+		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f5eb3a73-1d93-42f7-9757-26b486d74592}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
