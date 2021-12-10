@@ -40,15 +40,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.WinUI", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Avalonia", "src\libs\H.XamlExtensions.Avalonia\H.XamlExtensions.Avalonia.csproj", "{BB0DA6F4-4A0F-41B3-A7EC-B4F3FE38F8C5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.XamlExtensions.Apps.Avalonia", "src\apps\H.XamlExtensions.Apps.Avalonia\H.XamlExtensions.Apps.Avalonia.csproj", "{D457A105-C15B-4461-9AB8-5D40A71CCF7B}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{16a17957-6de3-4874-b0b6-08404c23fbbe}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{65786107-e646-452e-b899-edd26d09e401}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{682d6fb2-c18b-4522-8b33-567fcc8647fe}*SharedItemsImports = 5
-		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{ab635967-d2ff-4a55-a319-109099de8ff4}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{bb0da6f4-4a0f-41b3-a7ec-b4f3fe38f8c5}*SharedItemsImports = 5
 		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f497b163-e46e-4ea6-9e41-bb0c25ca6272}*SharedItemsImports = 13
-		src\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems*{f5eb3a73-1d93-42f7-9757-26b486d74592}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +189,22 @@ Global
 		{BB0DA6F4-4A0F-41B3-A7EC-B4F3FE38F8C5}.Release|x64.Build.0 = Release|Any CPU
 		{BB0DA6F4-4A0F-41B3-A7EC-B4F3FE38F8C5}.Release|x86.ActiveCfg = Release|Any CPU
 		{BB0DA6F4-4A0F-41B3-A7EC-B4F3FE38F8C5}.Release|x86.Build.0 = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|arm64.Build.0 = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|x64.Build.0 = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Debug|x86.Build.0 = Debug|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|arm64.ActiveCfg = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|arm64.Build.0 = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|x64.ActiveCfg = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|x64.Build.0 = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|x86.ActiveCfg = Release|Any CPU
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -203,6 +219,7 @@ Global
 		{FCFCA672-7669-4AAC-A76D-6A12E40F2EAB} = {464A41EC-E4D1-4BC3-93BD-A48E3449A4BD}
 		{682D6FB2-C18B-4522-8B33-567FCC8647FE} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
 		{BB0DA6F4-4A0F-41B3-A7EC-B4F3FE38F8C5} = {A81088C2-A6AF-4CB6-8F36-DF8C0E6D45B3}
+		{D457A105-C15B-4461-9AB8-5D40A71CCF7B} = {464A41EC-E4D1-4BC3-93BD-A48E3449A4BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6AF160D8-AC25-4835-84D4-A42A72264F88}

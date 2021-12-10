@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <DefineConstants>$(DefineConstants);HAS_AVALONIA</DefineConstants>
+  </PropertyGroup>
+  
+  <ItemGroup Label="Assets">
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.10" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.10" />
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="0.10.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\H.XamlExtensions.Avalonia\H.XamlExtensions.Avalonia.csproj" />
+  </ItemGroup>
+
+</Project>
