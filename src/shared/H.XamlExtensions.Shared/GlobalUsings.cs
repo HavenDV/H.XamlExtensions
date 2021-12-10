@@ -1,4 +1,6 @@
-﻿#if HAS_WPF
+﻿#if HAS_AVALONIA
+global using Avalonia.Controls;
+#elif HAS_WPF
 global using System.Windows;
 global using System.Windows.Controls;
 #elif HAS_WINUI

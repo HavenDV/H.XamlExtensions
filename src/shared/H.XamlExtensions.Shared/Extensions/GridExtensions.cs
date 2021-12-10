@@ -1,4 +1,5 @@
-﻿#nullable enable
+﻿#if !HAS_AVALONIA
+#nullable enable
 
 namespace H.XamlExtensions;
 
@@ -178,3 +179,4 @@ public static class GridExtensions
 
     #endregion
 }
+#endif
