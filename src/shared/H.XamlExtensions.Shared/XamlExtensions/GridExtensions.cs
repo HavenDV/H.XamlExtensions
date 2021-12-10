@@ -45,38 +45,7 @@ public static class GridExtensions
             throw new ArgumentException($"Value should be {nameof(String)}.");
         }
 
-        grid.ColumnDefinitions.Clear();
-        grid.RowDefinitions.Clear();
-
-        if (string.IsNullOrWhiteSpace(columnsAndRows))
-        {
-            return;
-        }
-
-        var values = columnsAndRows.Split(';');
-        foreach (var constraint in (values.ElementAtOrDefault(0) ?? "*")
-            .Split(',')
-            .Select(Constraint.Parse))
-        {
-            grid.ColumnDefinitions.Add(new ColumnDefinition
-            {
-                Width = constraint.Value,
-                MinWidth = constraint.MinValue,
-                MaxWidth = constraint.MaxValue,
-            });
-        }
-
-        foreach (var constraint in (values.ElementAtOrDefault(1) ?? "*")
-            .Split(',')
-            .Select(Constraint.Parse))
-        {
-            grid.RowDefinitions.Add(new RowDefinition
-            {
-                Height = constraint.Value,
-                MinHeight = constraint.MinValue,
-                MaxHeight = constraint.MaxValue,
-            });
-        }
+        grid.SetColumnsAndRows(columnsAndRows);
     }
 
     #endregion

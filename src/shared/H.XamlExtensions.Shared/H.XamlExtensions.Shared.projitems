@@ -10,8 +10,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\Constraint.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Extensions\GridExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\GridColumnsAndRowsExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\GridLengthConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GlobalUsings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XamlExtensions\GridExtensions.cs" />
   </ItemGroup>
 </Project>
