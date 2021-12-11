@@ -9,6 +9,10 @@ public class App : Application
 {
     public override void Initialize()
     {
+#if DEBUG
+        GC.KeepAlive(typeof(GridExtensions));
+#endif
+
         AvaloniaXamlLoader.Load(this);
     }
 
