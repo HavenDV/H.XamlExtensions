@@ -10,6 +10,6 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
   </ItemGroup>
 
-  <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
+  <Import Project="..\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
 
 </Project>

@@ -5,6 +5,6 @@
     <DefineConstants>$(DefineConstants);HAS_UWP</DefineConstants>
   </PropertyGroup>
 
-  <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
+  <Import Project="..\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
 
 </Project>

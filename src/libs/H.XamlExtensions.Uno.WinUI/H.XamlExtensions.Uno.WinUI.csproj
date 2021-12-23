@@ -10,6 +10,6 @@
     <PackageReference Include="Uno.WinUI" Version="3.10.7" />
   </ItemGroup>
 
-  <Import Project="..\..\shared\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
+  <Import Project="..\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
 
 </Project>

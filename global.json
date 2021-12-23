@@ -1,7 +1,4 @@
 {
-  "sdk": {
-    "allowPrerelease": true
-  },
   "msbuild-sdks": {
     "MSBuild.Sdk.Extras": "3.0.38"
   }
