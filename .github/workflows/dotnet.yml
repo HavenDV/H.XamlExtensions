@@ -7,6 +7,13 @@ jobs:
     uses: HavenDV/workflows/.github/workflows/dotnet_build-test-publish.yml@main
     with:
       os: windows-2022
+      project-path: 
+        /target:libs\H_XamlExtensions_Uno
+        /target:libs\H_XamlExtensions_Uno_WinUI
+        /target:libs\H_XamlExtensions_Uwp
+        /target:libs\H_XamlExtensions_WinUI
+        /target:libs\H_XamlExtensions_Wpf
+        /target:libs\H_XamlExtensions_Avalonia
       use-msbuild: true
       workloads: android ios maccatalyst macos
       windows-sdk-version: 18362
