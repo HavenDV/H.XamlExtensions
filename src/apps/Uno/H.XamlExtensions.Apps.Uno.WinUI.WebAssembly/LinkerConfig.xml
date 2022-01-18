@@ -1,9 +1,7 @@
 ﻿<linker>
-  <assembly fullname="H.XamlExtensions.Apps.Uno.WebAssembly" />
-  <assembly fullname="H.XamlExtensions.Apps.Core" />
-  <assembly fullname="H.XamlExtensions.Uno" />
-  <assembly fullname="Uno.UI" />
-  <assembly fullname="Microsoft.Extensions.Options" />
+  <assembly fullname="H.XamlExtensions.Apps.Uno.WinUI.WebAssembly" />
+  <assembly fullname="H.XamlExtensions.Uno.WinUI" />
+  <assembly fullname="Uno.WinUI" />
   
   <!-- This is required by ReactiveUI and any expression.Compile caller. -->
   <assembly fullname="System.Core">
