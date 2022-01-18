@@ -6,19 +6,20 @@
     <Platforms>x86;x64;arm64</Platforms>
     <UseWinUI>true</UseWinUI>
     <WindowsPackageType>None</WindowsPackageType>
+    <DefineConstants>$(DefineConstants);HAS_WINUI</DefineConstants>
   </PropertyGroup>
 
-  <ItemGroup Label="GlobalUsings">
-    <Using Include="Microsoft.UI.Xaml" />
-    <Using Include="Microsoft.UI.Xaml.Controls" />
-  </ItemGroup>
-
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\libs\H.XamlExtensions.WinUI\H.XamlExtensions.WinUI.csproj" />
   </ItemGroup>
+
+  <Import Project="..\H.XamlExtensions.Apps.Shared\H.XamlExtensions.Apps.Shared.projitems" Label="Shared" />
+  <Import Project="..\H.XamlExtensions.Apps.WinUI.Shared\H.XamlExtensions.Apps.WinUI.Shared.projitems" Label="Shared" />
 
 </Project>
