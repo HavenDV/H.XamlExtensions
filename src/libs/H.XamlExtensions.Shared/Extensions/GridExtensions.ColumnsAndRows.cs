@@ -22,9 +22,16 @@ public static class GridColumnsAndRowsExtensions
         }
 
         var values = columnsAndRows.Split(';');
-        foreach (var constraint in (values.ElementAtOrDefault(0) ?? "*")
+        var columns = (values.ElementAtOrDefault(0) ?? "*")
             .Split(',')
-            .Select(Constraint.Parse))
+            .Select(Constraint.Parse)
+            .ToArray();
+        var rows = (values.ElementAtOrDefault(1) ?? "*")
+            .Split(',')
+            .Select(Constraint.Parse)
+            .ToArray();
+
+        foreach (var constraint in columns)
         {
             grid.ColumnDefinitions.Add(new ColumnDefinition
             {
@@ -34,9 +41,7 @@ public static class GridColumnsAndRowsExtensions
             });
         }
 
-        foreach (var constraint in (values.ElementAtOrDefault(1) ?? "*")
-            .Split(',')
-            .Select(Constraint.Parse))
+        foreach (var constraint in rows)
         {
             grid.RowDefinitions.Add(new RowDefinition
             {

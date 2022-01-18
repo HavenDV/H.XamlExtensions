@@ -30,12 +30,12 @@ xmlns:e="using:H.XamlExtensions"
 ```xml
 <!-- Auto,Auto,*,Auto,Auto -->
 <Grid e:GridExtensions.ColumnsAndRows="A,A,*,A,A;A,A,*,A,A"/>
-<!-- Auto[MinWidth: 300, MaxWidth: 400],* -->
-<Grid e:GridExtensions.Rows="A[300-400],*"/>
-<!-- Auto[MinWidth: 300],* -->
-<Grid e:GridExtensions.Rows="A[300],*"/>
-<!-- Auto[MaxWidth: 300],* -->
-<Grid e:GridExtensions.Rows="A[0-300],*"/>
+<!-- *[MinWidth: 300, MaxWidth: 400],* -->
+<Grid e:GridExtensions.Rows="*[300-400],*"/>
+<!-- *[MinWidth: 300],* -->
+<Grid e:GridExtensions.Rows="*[300],*"/>
+<!-- *[MaxWidth: 300],* -->
+<Grid e:GridExtensions.Rows="*[0-300],*"/>
 ```
 
 ## Contacts

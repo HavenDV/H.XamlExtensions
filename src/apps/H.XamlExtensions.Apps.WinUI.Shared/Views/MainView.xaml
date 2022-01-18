@@ -10,7 +10,7 @@
     xmlns:e="using:H.XamlExtensions"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     >
-    <Grid e:GridExtensions.ColumnsAndRows="100,A[100-200],*;100,A[100-200],*">
+    <Grid e:GridExtensions.ColumnsAndRows="100,*[100-200],*;100,*[100-200],*">
         <Rectangle
             Grid.Column="0"
             Grid.Row="0"

@@ -27,23 +27,27 @@ public class Constraint
             ? minMaxString.Substring(minMaxString.IndexOf('-') + 1)
             : string.Empty;
 
+        var value = GridLengthConverter.ConvertFromInvariantString(valueString);
+        var minValue = double.TryParse(
+            minString,
+            NumberStyles.Any,
+            CultureInfo.InvariantCulture,
+            out var minValueResult)
+            ? minValueResult
+            : 0.0;
+        var maxValue = double.TryParse(
+            maxString,
+            NumberStyles.Any,
+            CultureInfo.InvariantCulture,
+            out var maxValueResult)
+            ? maxValueResult
+            : double.PositiveInfinity;
+
         return new Constraint
         {
-            Value = GridLengthConverter.ConvertFromInvariantString(valueString),
-            MinValue = double.TryParse(
-                minString,
-                NumberStyles.Any,
-                CultureInfo.InvariantCulture,
-                out var minValue)
-                ? minValue
-                : 0.0,
-            MaxValue = double.TryParse(
-                maxString,
-                NumberStyles.Any,
-                CultureInfo.InvariantCulture,
-                out var maxValue)
-                ? maxValue
-                : double.PositiveInfinity,
+            Value = value,
+            MinValue = minValue,
+            MaxValue = maxValue,
         };
     }
 }
