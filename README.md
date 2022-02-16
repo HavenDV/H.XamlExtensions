@@ -32,10 +32,10 @@ xmlns:e="clr-namespace:H.XamlExtensions;assembly=H.XamlExtensions.Wpf"
 xmlns:e="using:H.XamlExtensions"
 ```
 ```xml
-<!-- Auto,Auto,*,Auto,Auto -->
-<Grid e:GridExtensions.ColumnsAndRows="A,A,*,A,A;A,A,*,A,A"/>
-<!-- *[MinWidth: 300, MaxWidth: 400],* -->
-<Grid e:GridExtensions.Rows="*[300-400],*"/>
+<!-- Auto,50*,50*,Auto -->
+<Grid e:GridExtensions.ColumnsAndRows="A,50*,50*,A;A,50*,50*,A"/>
+<!-- *[MinWidth: 300, MaxWidth: 400],Auto -->
+<Grid e:GridExtensions.Rows="*[300-400],Auto"/>
 <!-- *[MinWidth: 300],* -->
 <Grid e:GridExtensions.Rows="*[300],*"/>
 <!-- *[MaxWidth: 300],* -->
