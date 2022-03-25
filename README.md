@@ -1,10 +1,6 @@
 # [H.XamlExtensions](https://github.com/HavenDV/H.XamlExtensions/) 
 
-[![Language](https://img.shields.io/badge/language-C%23-blue.svg?style=flat-square)](https://github.com/HavenDV/H.XamlExtensions/search?l=C%23&o=desc&s=&type=Code) 
-[![License](https://img.shields.io/github/license/HavenDV/H.XamlExtensions.svg?label=License&maxAge=86400)](LICENSE.md) 
-[![Build Status](https://github.com/HavenDV/H.XamlExtensions/actions/workflows/dotnet.yml/badge.svg)](https://github.com/HavenDV/H.XamlExtensions/actions/workflows/dotnet.yml)
-
-Shortest way to create rows/columns for Grid for WPF/UWP/WinUI/Uno platforms
+Shortest way to create rows/columns for Grid for WPF/UWP/WinUI/Uno/Avalonia platforms
 
 ### NuGet
 
@@ -13,6 +9,7 @@ Shortest way to create rows/columns for Grid for WPF/UWP/WinUI/Uno platforms
 [![NuGet](https://img.shields.io/nuget/dt/H.XamlExtensions.Uno.WinUI.svg?style=flat-square&label=H.XamlExtensions.Uno.WinUI)](https://www.nuget.org/packages/H.XamlExtensions.Uno.WinUI/)
 [![NuGet](https://img.shields.io/nuget/dt/H.XamlExtensions.Uwp.svg?style=flat-square&label=H.XamlExtensions.Uwp)](https://www.nuget.org/packages/H.XamlExtensions.Uwp/)
 [![NuGet](https://img.shields.io/nuget/dt/H.XamlExtensions.WinUI.svg?style=flat-square&label=H.XamlExtensions.WinUI)](https://www.nuget.org/packages/H.XamlExtensions.WinUI/)
+[![NuGet](https://img.shields.io/nuget/dt/H.XamlExtensions.Avalonia.svg?style=flat-square&label=H.XamlExtensions.Avalonia)](https://www.nuget.org/packages/H.XamlExtensions.Avalonia/)
 
 ```
 Install-Package H.XamlExtensions.Wpf
@@ -20,6 +17,7 @@ Install-Package H.XamlExtensions.Uno
 Install-Package H.XamlExtensions.Uno.WinUI
 Install-Package H.XamlExtensions.Uwp
 Install-Package H.XamlExtensions.WinUI
+Install-Package H.XamlExtensions.Avalonia
 ```
 
 ## Usage
@@ -28,7 +26,7 @@ Install-Package H.XamlExtensions.WinUI
 ```
 // WPF
 xmlns:e="clr-namespace:H.XamlExtensions;assembly=H.XamlExtensions.Wpf" 
-// UWP/WinUI/Uno
+// UWP/WinUI/Uno/Avalonia
 xmlns:e="using:H.XamlExtensions"
 ```
 ```xml
