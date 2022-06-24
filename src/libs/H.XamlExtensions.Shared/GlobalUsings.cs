@@ -1,4 +1,5 @@
-﻿#if HAS_AVALONIA
+﻿global using DependencyPropertyGenerator;
+#if HAS_AVALONIA
 global using Avalonia;
 global using Avalonia.Data;
 global using Avalonia.Controls;

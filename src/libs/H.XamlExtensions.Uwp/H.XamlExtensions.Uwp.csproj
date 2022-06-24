@@ -5,6 +5,14 @@
     <DefineConstants>$(DefineConstants);HAS_UWP</DefineConstants>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DependencyPropertyGenerator" Version="0.29.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="DependencyPropertyGenerator.Core" Version="0.29.0" />
+  </ItemGroup>
+
   <Import Project="..\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
 
 </Project>
