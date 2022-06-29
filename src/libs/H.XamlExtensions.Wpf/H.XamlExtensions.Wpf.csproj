@@ -10,11 +10,11 @@
   <Import Project="..\H.XamlExtensions.Shared\H.XamlExtensions.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="DependencyPropertyGenerator" Version="0.29.0">
+    <PackageReference Include="DependencyPropertyGenerator" Version="0.32.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="DependencyPropertyGenerator.Core" Version="0.29.0" />
+    <PackageReference Include="DependencyPropertyGenerator.Core" Version="0.32.1" />
     <PackageReference Include="WpfAnalyzers" Version="4.1.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
