@@ -8,6 +8,7 @@
     <!--<WindowsPackageType>None</WindowsPackageType>-->
     <DefineConstants>$(DefineConstants);HAS_WINUI</DefineConstants>
     <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <!-- Defining the "Msix" ProjectCapability here allows the Single-project MSIX Packaging
