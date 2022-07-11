@@ -14,11 +14,11 @@ public static partial class GridExtensions
     #region ColumnsAndRows
 
     static partial void OnColumnsAndRowsChanged(
-        Grid sender,
+        Grid grid,
         string? oldValue,
         string? newValue)
     {
-        sender.SetColumnsAndRows(newValue ?? string.Empty);
+        grid.SetColumnsAndRows(newValue ?? string.Empty);
     }
 
     #endregion
@@ -26,14 +26,14 @@ public static partial class GridExtensions
     #region Columns
 
     static partial void OnColumnsChanged(
-        Grid sender,
+        Grid grid,
         string? oldValue,
         string? newValue)
     {
 #if HAS_WPF
-        sender.SetCurrentValue(ColumnsAndRowsProperty, $"{newValue};*");
+        grid.SetCurrentValue(ColumnsAndRowsProperty, $"{newValue};*");
 #else
-        sender.SetValue(ColumnsAndRowsProperty, $"{newValue};*");
+        grid.SetValue(ColumnsAndRowsProperty, $"{newValue};*");
 #endif
     }
 
@@ -42,14 +42,14 @@ public static partial class GridExtensions
     #region Rows
 
     static partial void OnRowsChanged(
-        Grid sender,
+        Grid grid,
         string? oldValue,
         string? newValue)
     {
 #if HAS_WPF
-        sender.SetCurrentValue(ColumnsAndRowsProperty, $"*;{newValue}");
+        grid.SetCurrentValue(ColumnsAndRowsProperty, $"*;{newValue}");
 #else
-        sender.SetValue(ColumnsAndRowsProperty, $"*;{newValue}");
+        grid.SetValue(ColumnsAndRowsProperty, $"*;{newValue}");
 #endif
     }
     
